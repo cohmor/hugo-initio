@@ -22,6 +22,10 @@
             {{ partial "clients.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.showRecentPosts }}
+            {{ partial "recentposts.html" . }}
+        {{ end }}
+
 	</div>	<!-- /container -->
 
 </main>

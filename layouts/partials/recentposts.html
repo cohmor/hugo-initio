@@ -1,0 +1,15 @@
+<div class="row section featured topspace">
+
+    <h2 class="section-title"><span>Recent Posts</span></h2>
+
+    <div class="">
+        <ul>
+            {{ range $index, $area := .Site.Data.recentposts }}
+                <li>
+                    {{ .date }}: <a href="{{ .url }}">{{ .title }}</a>
+                </li>
+            {{ end }}
+        </ul>
+    </div>
+
+</div> <!-- / section -->
