@@ -257,9 +257,9 @@ a:hover {
 #head .tagline a {
   color: #5E5E5E;
 }
-.home #head {
+/* .home #head {
   padding: 90px 0;
-}
+} */
 .home #head .title {
   font-size: 49px;
   font-size: 3.0625rem;
